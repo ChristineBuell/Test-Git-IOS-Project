@@ -21,6 +21,7 @@
 		4A83E80A18FDD2B6001D0EE3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A83E7EC18FDD2B5001D0EE3 /* UIKit.framework */; };
 		4A83E81218FDD2B6001D0EE3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A83E81018FDD2B6001D0EE3 /* InfoPlist.strings */; };
 		4A83E81418FDD2B6001D0EE3 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A83E81318FDD2B6001D0EE3 /* Git_TestTests.m */; };
+		4A83E81F18FDEF75001D0EE3 /* CMBTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A83E81E18FDEF75001D0EE3 /* CMBTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		4A83E80F18FDD2B6001D0EE3 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		4A83E81118FDD2B6001D0EE3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4A83E81318FDD2B6001D0EE3 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		4A83E81D18FDEF75001D0EE3 /* CMBTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMBTest.h; sourceTree = "<group>"; };
+		4A83E81E18FDEF75001D0EE3 /* CMBTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMBTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 			children = (
 				4A83E7F718FDD2B5001D0EE3 /* CMBAppDelegate.h */,
 				4A83E7F818FDD2B5001D0EE3 /* CMBAppDelegate.m */,
+				4A83E81D18FDEF75001D0EE3 /* CMBTest.h */,
+				4A83E81E18FDEF75001D0EE3 /* CMBTest.m */,
 				4A83E7FA18FDD2B5001D0EE3 /* Main.storyboard */,
 				4A83E7FD18FDD2B5001D0EE3 /* CMBViewController.h */,
 				4A83E7FE18FDD2B5001D0EE3 /* CMBViewController.m */,
@@ -252,6 +257,7 @@
 			files = (
 				4A83E7F518FDD2B5001D0EE3 /* main.m in Sources */,
 				4A83E7F918FDD2B5001D0EE3 /* CMBAppDelegate.m in Sources */,
+				4A83E81F18FDEF75001D0EE3 /* CMBTest.m in Sources */,
 				4A83E7FF18FDD2B5001D0EE3 /* CMBViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
